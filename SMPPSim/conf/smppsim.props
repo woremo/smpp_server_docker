@@ -2,7 +2,7 @@
 # clients. SMPP_CONNECTION_HANDLERS determines the maximum number of client connections
 # that can be handled concurrently.
 SMPP_PORT=2775
-SMPP_CONNECTION_HANDLERS=10
+SMPP_CONNECTION_HANDLERS=30
 
 # Specify the classes that imlement connection and protocol handling respectively here.
 # Such classes *must* be subclasses of com.seleniumsoftware.SMPPSim.ConnectionHandler and com.seleniumsoftware.SMPPSim.SMPPProtocolHandler respectively
